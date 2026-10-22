@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "stronger_crossbows_test",
+  "version": "1.0.0",
+  "name": "Stronger Crossbows game tests",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-gametest": ["pelletstove.strongercrossbows.test.StrongerCrossbowsTests"]
+  },
+  "depends": { "stronger-crossbows": "*" }
+}

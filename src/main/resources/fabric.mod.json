@@ -1,0 +1,26 @@
+{
+	"schemaVersion": 1,
+	"id": "stronger-crossbows",
+	"version": "${version}",
+	"name": "Stronger Crossbows",
+	"description": "Arrows a player fires from a crossbow get +2.5 base damage, the same as Power IV on a bow.",
+	"authors": [
+		"Don"
+	],
+	"license": "CC0-1.0",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"pelletstove.strongercrossbows.StrongerCrossbows"
+		]
+	},
+	"mixins": [
+		"stronger-crossbows.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
